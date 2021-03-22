@@ -1,0 +1,50 @@
+*{
+    overflow: visible;
+}
+.Chips-container{
+    position: relative;
+    top: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.Chips{
+width: 170px;
+height: auto;
+}
+
+.btn{
+position: relative;
+top: 20rem;
+left: 36rem;
+background-color:#44c767;
+border-radius:28px;
+border:1px solid #18ab29;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:17px;
+padding:16px 31px;
+text-decoration:none;
+text-shadow:0px 1px 0px #2f6627;
+outline: none;
+z-index: 5;
+}
+
+
+.btn:hover {
+	background-color:#5cbf2a;
+}
+.btn:active {
+	position:relative;
+	top: 319px;
+}
+
+.counting{
+    text-align: center;
+    margin-top: 14rem;
+}
+
+  

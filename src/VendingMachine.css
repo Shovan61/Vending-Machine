@@ -1,0 +1,28 @@
+
+.VendingMachine{
+background: url('./images/pexels-satoshi-hirayama-4639540.jpg') no-repeat;
+background-size: 80rem 55rem;
+height: 100vh;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+}
+
+
+.Vend-link{
+color: rgb(255, 0, 0);
+position: relative;
+top: 39rem;
+left: 60rem;
+letter-spacing: 8px;
+font-size: 2rem;
+animation: blinker 1.2s linear infinite;
+cursor: pointer;
+margin-bottom: 2rem;
+text-decoration: none;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0.5;
+    }
+  }

@@ -1,0 +1,46 @@
+body{
+    overflow: hidden;
+}
+
+.CocaCola{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    
+    
+}
+
+.cola1{
+height: auto;
+width: 370px;
+animation: spin 3s linear infinite;
+}
+.cola2{
+    height: auto;
+    width: 370px;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+   from{
+       transform: rotate(0deg);
+   } to {
+       transform: rotate(359deg);
+   }
+}
+
+.back{
+ position: absolute;
+ bottom: 10rem;
+ left: 35rem;
+ text-decoration: none;
+ font-size: 2rem;
+ padding: 10px 20px;
+ background-color: rgb(50, 173, 50);
+ color: white;
+ border-radius: 10px;
+}
+.back:hover{
+    background-color: rgb(44, 146, 44);
+}
